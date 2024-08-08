@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: 10% 10% 10%;
+    justify-content: center;
+}
+
+.grid-item{
+    padding: 1%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    background-color: blanchedalmond;
+}
