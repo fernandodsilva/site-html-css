@@ -8,12 +8,77 @@
 </head>
 <body>
     <header>
-        <h1>Mangáholic</h1>
-        <div class="grid-container">
-            <div class="grid-item"><a href="index.html">Home</a></div>
-            <div class="grid-item"><a href="contact.html">Contact</a></div>
-            <div class="grid-item"><a href="#">Gêneros</a></div>
+        <div class="header-container">
+            <h1 id="titulo">Mangáholic</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Produtos</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+    <main class="content-container">
+        <section id="destaques-mangas">
+            <h2>Mangás em Destaque</h2>
+            <div class="manga-grid">
+                <article>
+                    <img src="manga1.jpg" alt="Mangá 1">
+                    <h3>Vagabond volume 1</h3>
+                    <p>R$ 50,00</p>
+                </article>
+                <article>
+                    <img src="manga2.jpg" alt="Mangá 2">
+                    <h3>Boa noite PunPun!</h3>
+                    <p>R$ 60,00</p>
+                </article>
+                <article>
+                    <img src="manga3.jpg" alt="Mangá 3">
+                    <h3></h3>
+                    <p>R$ 60,00</p>
+                </article>
+                <article>
+                    <img src="manga4.jpg" alt="Mangá 4">
+                    <h3>One Piece</h3>
+                    <p>R$ 40,00</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="genres">
+            <h2>Você pode gostar de...</h2>
+            <div class="genres-grid">
+                <div class="genre-item">
+                    <a href="shonen.html">
+                        <img src="images/shonen.png" alt="Shonen">
+                        <p>Shonen</p>
+                    </a>
+                </div>
+                <div class="genre-item">
+                    <a href="shojo.html">
+                        <img src="images/shojo.jpg" alt="Shojo">
+                        <p>Shojo</p>
+                    </a>
+                </div>
+                <div class="genre-item">
+                    <a href="seinen.html">
+                        <img src="images/seinen.jpg" alt="Seinen">
+                        <p>Seinen</p>
+                    </a>
+                </div>
+                <div class="genre-item">
+                    <a href="josei.html">
+                        <img src="./images/josei.jpg" alt="Josei">
+                        <p>Josei</p>
+                    </a>
+                </div>
+                <!-- Adicione mais gêneros conforme necessário -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Mangáholic 2023</p>
+    </footer>
 </body>
 </html>
